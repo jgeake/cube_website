@@ -1,23 +1,28 @@
-.button {
-    display: inline-block;
-    padding: 20px 40px; /* Increase padding to make the button larger */
-    font-size: 20px; /* Larger text size */
-    color: white;
-    background-color: #007BFF;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px; /* Slightly larger border-radius for smoother corners */
-    border: none;
-    margin: 20px auto; /* Centering within container */
-}
-
-.button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .button-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; /* Center the button vertically */
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 40px; /* Larger button */
+    font-size: 20px; /* Larger font */
+    color: white;
+    background-color: #007BFF;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
 }
