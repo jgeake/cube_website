@@ -9,6 +9,7 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Center the button vertically */
+    margin-top: 150px;
 }
 
 .button {
