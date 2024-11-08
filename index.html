@@ -9,8 +9,46 @@
 <body>
     <h1>Welcome to a Running Paces Calculator</h1>
     <h3>Enter values in any two fields to find the third</h3>
+
+    <!-- Form to accept user input -->
+    <form id="input-form">
+        <input type="text" id="user-input" placeholder="Distance (km)" required>
+        <button type="button" onclick="getDistance()">Submit</button>
+        <input type="text" id="user-input" placeholder="Time (min)" required>
+        <button type="button" onclick="getTime()">Submit</button>
+        <input type="text" id="user-input" placeholder="Pace (min/km)" required>
+        <button type="button" onclick="getPace()">Submit</button>
+    </form>
+
+    <p id="output"></p> <!-- This paragraph will display the user input -->
+
+    <script>
+        function getDistance() {
+            // Get the value of the input field
+            const userInput = document.getElementById('user-input').value;
+            // Display the input below the button
+            document.getElementById('output').innerText = "You entered: " + userInput;
+        }
+
+        function getTime() {
+            // Get the value of the input field
+            const userInput = document.getElementById('user-input').value;
+            // Display the input below the button
+            document.getElementById('output').innerText = "You entered: " + userInput;
+        }
+
+        function getPace() {
+            // Get the value of the input field
+            const userInput = document.getElementById('user-input').value;
+            // Display the input below the button
+            document.getElementById('output').innerText = "You entered: " + userInput;
+        }
+    </script>
+
+    
     <div class="button-container">
         <button onclick="location.href='about.html'">To The About Page</button>
+        <button></button>
     </div>
 </body>
 </html>
