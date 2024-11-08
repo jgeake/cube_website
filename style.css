@@ -12,17 +12,19 @@ body, html {
 }
 
 .button {
-    display: inline-block;
-    padding: 20px 40px; /* Larger button */
-    font-size: 20px; /* Larger font */
-    color: white;
-    background-color: #007BFF;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px;
-    border: none;
+    display: inline-block;          /* Allows padding and sizing */
+    padding: 15px 30px;             /* Space inside the button */
+    font-size: 18px;                /* Font size of the button text */
+    color: white;                   /* Text color */
+    background-color: #007BFF;      /* Button background color */
+    text-align: center;             /* Centers the text */
+    text-decoration: none;          /* Removes the underline */
+    border-radius: 8px;             /* Rounds the button corners */
+    border: none;                   /* Removes any border */
+    cursor: pointer;                /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3;      /* Darkens the button on hover */
 }
